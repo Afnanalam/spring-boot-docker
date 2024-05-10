@@ -58,7 +58,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>spring-boot-docker</finalName>
+		<finalName>springboot-image-new</finalName>
 	</build>
 
 </project>

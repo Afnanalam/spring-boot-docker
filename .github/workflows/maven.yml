@@ -30,8 +30,8 @@ jobs:
     - name: Build with Maven
       run: mvn clean install
 
-    - name: Build & push Docker Image
-      users: mr-smithers-excellent/docker-build-push@v5
+    - name: Build & push Docker image
+      uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: afnan6321/springboot-image-new
         tags: latest
